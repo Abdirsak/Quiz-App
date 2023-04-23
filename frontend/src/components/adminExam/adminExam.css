@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+};
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.product-btn {
+  margin-top: 25px;
+  width: 100%;
+}
+.product-btn button{
+  display: block;
+  margin: 0 auto;
+  background-color: #001e28;
+  color: #ffffff;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.5s;
+  border: none;
+}
+.product-btn button:hover{
+  background-color: #ffffff;
+  color: #001e28;
+}
+.ant-layout-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-new{
+  margin: 0 0 0 auto;
+  display: block;
+  background-color: #001e28;
+  color: #ffffff;
+  transition: all 0.5s;
+  border: none;
+  margin-bottom: 5px;
+}
+.add-new:hover{
+  background-color: #ffffff;
+  color: #001e28;
+  border: 2px solid #001e28;
+}
+.cart-edit{
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 30px;
+  }
+.cart-edit:hover{
+    filter: drop-shadow(0 0 2px #0000ff);
+    color: #ffffff;
+}
+.cart-action{
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+.cart-action:hover{
+    filter: drop-shadow(0 0 2px #ff0000);
+    color: #ffffff;
+}
+.audio{
+  width: 250px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+ 

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addstd{
+    background-color: rgb(5, 5, 100);
+    color: white;
+    float: right;
+    margin: 10px 20px;
+    font-size: medium;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.savestd{
+    margin: 0 0 0 auto;
+    display: block;
+    background-color: #001e28;
+    color: #ffffff;
+    transition: all 0.5s;
+    border: none;
+    margin-bottom: 5px;
+}
+.savestd:hover{
+    background-color: #ffffff;
+    color: #001e28;
+    border: 2px solid #001e28;
+}
